@@ -1,0 +1,296 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url('../fonts/Graphik-Medium.woff2') format('woff2'),
+    url('../fonts/Graphik-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../fonts/Graphik-Regular.woff2') format('woff2'),
+    url('../fonts/Graphik-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+
+}
+
+.skillbox, .download, .more  {
+  color: black;
+}
+
+.skillbox {
+  font-family: 'Graphik LCG, sans-serif';
+}
+
+.download {
+  padding: 3px 20px 3px 20px;
+  background-color: #2f1ce4;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.download:hover {
+  background-color: #5344df;
+  cursor: pointer;
+}
+
+.more {
+  text-align: center;
+  width: 240px;
+  height: 56px;
+  padding: 3px 20px 3px 20px;
+  background-color: #2f1ce4;
+  color: white;
+}
+
+.more:hover {
+  background-color: #5344df;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: 'Graphik';
+  font-weight: medium;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.arrow {
+  background-image: url(img/arrow.png);
+  width: 24px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 19px;
+}
+
+.back {
+  font-family: 'Gilroy';
+  font-weight: medium;
+  font-size: 18px;
+}
+
+.skillbox-logo {
+  margin-top: 55px;
+  margin-bottom: 50px;
+}
+
+.modules {
+  display: block;
+  font-weight: 800;
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 70px;
+  margin-left: 102px;
+}
+
+.previous-page {
+  margin-bottom: 95px;
+}
+
+.introduction {
+  position: relative;
+  display: inline-block;
+  width: 480px;
+  height: 505px;
+  background-color: white;
+  margin-left: 78px;
+  box-shadow: 0 3px 12px 3px #cacaca;
+  background: url(img/intro.png);
+  background-repeat: no-repeat;
+  padding: 0rem;
+  top: -30px;
+}
+
+.introduction-content {
+  display: block;
+  margin-top: 204px;
+  margin-left: 54px;
+}
+
+.intro-text {
+  margin: 0;
+  font-weight: 800;
+  font-size: 36px;
+  color: #2f1ce4;
+}
+
+.intro-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+
+.basic-html {
+  position: relative;
+  display: inline-block;
+  width: 480px;
+  height: 505px;
+  background-color: white;
+  margin-left: 60px;
+  box-shadow: 0 3px 12px 3px #cacaca;
+  background: url(img/basic-html.png);
+  background-repeat: no-repeat;
+}
+
+.html-content {
+  display: block;
+  margin-top: 204px;
+  margin-left: 54px;
+}
+
+.html-text-name {
+  margin: 0;
+  font-weight: 800;
+  font-size: 36px;
+  color: #2f1ce4;
+}
+
+.html-cont {
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.basic-css {
+  position: relative;
+  display: inline-block;
+  width: 480px;
+  height: 505px;
+  background-color: white;
+  margin-left: 78px;
+  box-shadow: 0 3px 12px 3px #cacaca;
+  background-image: url(img/basic-css.png);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  padding-top: 204px;
+  padding-left: 54px;
+}
+
+.css-text-name {
+  font-weight: 800;
+  font-size: 36px;
+  color: #2f1ce4;
+  margin: 0;
+}
+
+.css-cont {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.layout {
+  position: relative;
+  display: inline-block;
+  width: 480px;
+  height: 505px;
+  background-color: white;
+  margin-left: 60px;
+  box-shadow: 0 3px 12px 3px #cacaca;
+  background-image: url(img/layout.png);
+  background-repeat: no-repeat;
+  padding-top: 204px;
+  padding-left: 54px;
+  vertical-align: top;
+  margin-top: 30px;
+}
+
+.layout-text-name {
+  font-weight: 800;
+  font-size: 36px;
+  color: #2f1ce4;
+  margin: 0;
+}
+
+.layout-cont {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.button {
+  text-align: center;
+  margin-top: 97px;
+}
+
+.more-button {
+  border: 4px solid #2f1ce4;
+  color: #2f1ce4;
+  background-color: white;
+  padding: 31px 78px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Gilroy';
+  font-weight: 400px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.wave {
+  width: 100%;
+  height: 40%;
+  margin-top: -320px;
+}
+
